@@ -10,11 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    func add(numberOne x: Double, numberTwo y: Double)->Double{
+        let result: Double = x + y
+        return result
+    }
+        
 }
 

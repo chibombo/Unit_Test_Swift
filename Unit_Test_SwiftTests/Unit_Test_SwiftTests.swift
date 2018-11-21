@@ -11,17 +11,24 @@ import XCTest
 
 class Unit_Test_SwiftTests: XCTestCase {
 
+    var viewController: ViewController!
     override func setUp() {
+        viewController = ViewController()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        viewController = nil
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testAddFunction(){
+        //1.
+        let aResult = 6.0
+        //2.
+        let result = viewController.add(numberOne: 2.5, numberTwo: 2.5)
+        //3
+        XCTAssertEqual(aResult, result, #function)
     }
 
     func testPerformanceExample() {
