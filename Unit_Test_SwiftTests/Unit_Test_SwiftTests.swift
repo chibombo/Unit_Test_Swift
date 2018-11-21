@@ -24,7 +24,7 @@ class Unit_Test_SwiftTests: XCTestCase {
 
     func testAddFunction(){
         //1.
-        let aResult = 7.0
+        let aResult = 5.0
         //2.
         let result = viewController.add(numberOne: 2.5, numberTwo: 2.5)
         //3
