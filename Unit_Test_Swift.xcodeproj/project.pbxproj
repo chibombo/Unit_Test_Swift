@@ -13,7 +13,7 @@
 		832883C821A5DC01001EDD25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 832883C721A5DC01001EDD25 /* Assets.xcassets */; };
 		832883CB21A5DC01001EDD25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832883C921A5DC01001EDD25 /* LaunchScreen.storyboard */; };
 		832883D621A5DC01001EDD25 /* Unit_Test_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832883D521A5DC01001EDD25 /* Unit_Test_SwiftTests.swift */; };
-		83474EED21B5C6B000D1F971 /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = 83474EEC21B5C6B000D1F971 /* Jenkinsfile */; };
+		83474EED21B5C6B000D1F971 /* Jenkinsfile.groovy in Resources */ = {isa = PBXBuildFile; fileRef = 83474EEC21B5C6B000D1F971 /* Jenkinsfile.groovy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		832883D121A5DC01001EDD25 /* Unit_Test_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Unit_Test_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		832883D521A5DC01001EDD25 /* Unit_Test_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit_Test_SwiftTests.swift; sourceTree = "<group>"; };
 		832883D721A5DC01001EDD25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83474EEC21B5C6B000D1F971 /* Jenkinsfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
+		83474EEC21B5C6B000D1F971 /* Jenkinsfile.groovy */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsfile.groovy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 				832883C721A5DC01001EDD25 /* Assets.xcassets */,
 				832883C921A5DC01001EDD25 /* LaunchScreen.storyboard */,
 				832883CC21A5DC01001EDD25 /* Info.plist */,
-				83474EEC21B5C6B000D1F971 /* Jenkinsfile */,
+				83474EEC21B5C6B000D1F971 /* Jenkinsfile.groovy */,
 			);
 			path = Unit_Test_Swift;
 			sourceTree = "<group>";
@@ -181,7 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				832883CB21A5DC01001EDD25 /* LaunchScreen.storyboard in Resources */,
-				83474EED21B5C6B000D1F971 /* Jenkinsfile in Resources */,
+				83474EED21B5C6B000D1F971 /* Jenkinsfile.groovy in Resources */,
 				832883C821A5DC01001EDD25 /* Assets.xcassets in Resources */,
 				832883C621A5DBFF001EDD25 /* Main.storyboard in Resources */,
 			);
