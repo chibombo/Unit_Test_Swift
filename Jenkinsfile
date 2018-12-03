@@ -1,5 +1,3 @@
-pipeline {
-    agent any
     node{
         stage('Prepare Project'){
         downloadProject()
@@ -22,4 +20,4 @@ pipeline {
         credentialsId: 'chibombo',
         url: 'https://github.com/chibombo/Unit_Test_Swift.git'
     }
-}
+
