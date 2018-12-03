@@ -61,6 +61,7 @@
 		832883B421A5DBFE001EDD25 = {
 			isa = PBXGroup;
 			children = (
+				83474EEC21B5C6B000D1F971 /* Jenkinsfile.groovy */,
 				832883BF21A5DBFF001EDD25 /* Unit_Test_Swift */,
 				832883D421A5DC01001EDD25 /* Unit_Test_SwiftTests */,
 				832883BE21A5DBFF001EDD25 /* Products */,
@@ -85,7 +86,6 @@
 				832883C721A5DC01001EDD25 /* Assets.xcassets */,
 				832883C921A5DC01001EDD25 /* LaunchScreen.storyboard */,
 				832883CC21A5DC01001EDD25 /* Info.plist */,
-				83474EEC21B5C6B000D1F971 /* Jenkinsfile.groovy */,
 			);
 			path = Unit_Test_Swift;
 			sourceTree = "<group>";
