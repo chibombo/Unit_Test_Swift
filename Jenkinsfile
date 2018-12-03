@@ -16,12 +16,10 @@ pipeline {
                 echo "Something wrong"
             }
         }
-
-        def downloadProject(){
-
-            git branch: env.BRANCH_NAME,
-            credentialsId: 'chibombo',
-            url: 'https://github.com/chibombo/Unit_Test_Swift.git'
-        }
+    }
+    def downloadProject(){
+        git branch: env.BRANCH_NAME,
+        credentialsId: 'chibombo',
+        url: 'https://github.com/chibombo/Unit_Test_Swift.git'
     }
 }
